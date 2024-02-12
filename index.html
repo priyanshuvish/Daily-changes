@@ -27,7 +27,7 @@
   <body>
                                  <!-- HEADER -->
                                  
-      <nav class="navbar-expand-lg bg-body-tertiary">
+      <!-- <nav class="navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <div class="nav-sec">
             <div class="row">
@@ -71,23 +71,49 @@
             </div>
           </div>
       </div>
-    </nav>
+    </nav> -->
+
+    <!-- <header>
+      <div class="nav-sec">
+        <div class="logo">
+          the<span>HAM</span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Testimonial</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header> -->
 
 
-      <!-- <div class="container">
-      <nav class="nav-sec">
+
+  <header>
+      <div class="nav-sec container">
         <div class="logo">
           <img src="images/logo.png" alt="" />
         </div>
+        <nav>
         <ul class="navLinks">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="course.html">SKILLS</a></li>
-          <li><a href="our faculty.html">SERVICE</a></li>
-          <li><a href="contact.html">WORK</a></li>
-          <li><a href="contact.html">TESTIMONIAL</a></li>
-          <li><a href="contact.html">BLOG</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">SKILLS</a></li>
+          <li><a href="">SERVICE</a></li>
+          <li><a href="">WORK</a></li>
+          <li><a href="">TESTIMONIAL</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
           <li>
             <a href="">
               <i class="fa-solid fa-magnifying-glass"></i>
@@ -95,8 +121,14 @@
           </li>
         </ul>
       </nav>
-    </div> -->
-
+        <div class="menu-toggle">
+          <input type="checkbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+  </header>
     
 
                                    <!-- HERO-SEC -->
@@ -708,11 +740,11 @@
 
                                          <!-- Breaking  -->
 
-    <section class="breaking-sec container">
+    <section class="breaking-sec">
       <div class="break-head">
         <p>BREAKING NEWS</p>
       </div>
-      <div class="break-main">
+      <div class="break-main  container">
         <div class="break-div">
           <div class="break-div-img">
             <img src="images/1.webp" alt="" />
@@ -1315,5 +1347,15 @@
     focusOnSelect: true
   });
   </script>
+
+  <script>
+  const menuToggle = document.querySelector('.menu-toggle input');
+    const nav = document.querySelector('nav ul');
+    
+    menuToggle.addEventListener('click', function() {
+      nav.classList.toggle('slide');
+    });
+    </script>
+
   </body>
 </html>

@@ -20,25 +20,34 @@ p {
   margin: 0 !important;
 }
 
+
+/* navbar  */
+
 header {
   background-color: transparent;
 }
 
-/* .nav-sec {
+.nav-sec {
   display: flex;
-  gap: 45px;
-  margin: 0;
-  padding: 0;
-} */
-.nav-sec ul.navbar-nav {
-  width: 100%;
-  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.navbar-nav .nav-item {
+.logo img {
+  width: 30%;
+}
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
   list-style: none;
 }
-.navbar-nav .nav-item .nav-link {
+.navLinks li a {
   color: #312f2f;
   font-weight: 600;
   letter-spacing: 1px;
@@ -46,11 +55,7 @@ header {
   text-decoration: none;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-  color: #00bba9;
-}
-
-.navbar-nav .nav-item .nav-link::after {
+.navLinks li a::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -60,9 +65,31 @@ header {
   transition: all 0.3s;
   transform: translateX(-50%);
 }
+.navLinks li a:hover {
+  color: #00bba9;
+}
 
-.navbar-nav li .nav-link:hover:after {
+.navbar-nav li a:hover:after {
   width: 100%;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle input {
+  display: none;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* HERO-SECTION */
@@ -1142,4 +1169,51 @@ button.tags-btn-go {
 .flicke-div img {
   width: 70%;
   height: 70%;
+}
+
+/* media  */
+
+@media (max-width: 1080px) {
+  .breaking-sec .break-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+@media (max-width: 880px) {
+  .nav-sec {
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navLinks li {
+    margin-bottom: 10px;
+  }
+
+  .menu-toggle input:checked ~ .nav-links {
+    display: flex;
+  }
+
+  .menu-toggle input:checked ~ .menu-toggle span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-toggle input:checked ~ .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle input:checked ~ .menu-toggle span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+
 }

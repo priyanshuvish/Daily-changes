@@ -94,7 +94,7 @@
 
 
 
-  header .container {
+  header .nav-sec {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,17 +103,51 @@
 .logo a {
     font-size: 30px;
     font-weight: 600;
+    text-decoration: none;
+}
+.logo a span {
+    color: #00bba9;
 }
 nav ul {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li a {
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
 }
+
+nav ul li a {
+    color: #312f2f;
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+    text-decoration: none;
+  }
+  
+ nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 0%;
+    bottom: -10px;
+    border-bottom: 2px solid #00bba9;
+    transition: all 0.3s;
+    transform: translateX(-50%);
+  }
+ nav ul li a:hover {
+    color: #00bba9;
+  }
+  
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+
 .hamburger {
     position: relative;
     width: 25px;

@@ -15,45 +15,16 @@
 </head>
 
 <body>
+          <!-- header  -->
 
-    <!-- <header>
-        <div class="nav-sec container">
-            <div class="logo">
-                <img src="images/logo.png" alt="" />
-            </div>
-            <nav>
-                <ul class="navLinks">
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SKILLS</a></li>
-                    <li><a href="">SERVICE</a></li>
-                    <li><a href="">WORK</a></li>
-                    <li><a href="">TESTIMONIAL</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li>
-                        <a href="">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="menu-toggle">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </header> -->
 
     <header>
-        <div class="container">
+        <div class="container header-sec py-3">
             <div class="logo">
-                <a href="index.html">theHAM</a>
+                <a href="index.html">the<span>HAM</span></a>
             </div>
             <nav>
-                <div class="cross_btn">
+                <div class="cross-btn">
                     &times;
                 </div>
                 <ul class="navLinks">
@@ -71,10 +42,11 @@
                         </a>
                     </li>
                 </ul>
-            </nav>
-            <div class="hamburger"></div>
+              </nav>
+            <div class="hamburger"><img src="images/ham.png" alt=""></div>
             <div class="overlay"></div>
         </div>
+      </div>
     </header>
 
 
@@ -271,10 +243,10 @@
         </div>
     </section>
 
-    <!-- ABOUT COMPANY -->
+    <!-- ABOUT skillbar -->
 
     <section class="about-company">
-        <div class="company-right-main">
+        <div class="company-right-main container">
             <div class="company-right">
                 <div class="company-head">
                     <p>About Our Company</p>
@@ -1000,7 +972,7 @@
     <section class="touch container-tb">
         <div class="map">
             <div class="map-frame">
-                <iframe src="" width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+                <iframe src="" width="400" height="300" style="border: 0"  allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
@@ -1171,10 +1143,11 @@
     </script>
 
 <script>
-    let cross_btn = document.querySelector('.cross_btn');
+    let cross_btn = document.querySelector('.cross-btn');
     let nav = document.querySelector('nav');
     let ham = document.querySelector('.hamburger');
     let overlay = document.querySelector('.overlay');
+    let navLinks = document.querySelector('.navLinks');
 
     let openSide = function () {
         nav.style.left = '0';
@@ -1194,6 +1167,9 @@
     })
     overlay.addEventListener('click', function () {
         closeSide();
+    })
+    navLinks.addEventListener('click', function () {
+       navLinks();
     })
 </script>
 

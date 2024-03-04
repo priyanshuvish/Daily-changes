@@ -1,1199 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <title>New Practice</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <link rel="stylesheet" href="style.css">
+    <title>Next</title>
 </head>
-
 <body>
-          <!-- header  -->
 
-
+    <!-- Header -->
     <header>
-        <div class="container header-sec py-3">
+        <div class="container">
+        <div class="navs py-2">
             <div class="logo">
-                <a href="index.html">the<span>HAM</span></a>
+                <a href="index.html">
+                  <img src="images/black_logo (1) 1.png" alt="">
+                </a>
             </div>
             <nav class="navs">
                 <div class="cross-btn">
                     &times;
                 </div>
                 <ul class="navLinks">
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">SKILLS</a></li>
-                    <li><a href="">SERVICE</a></li>
-                    <li><a href="">WORK</a></li>
-                    <li><a href="">TESTIMONIAL</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                    <li>     
-                        <a href=""> 
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </a>
-                        <!-- <input type="text" id="search-bar" placeholder="Search..."> -->
-
-                    </li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Hire Developers</a></li>
+                    <li><a href="">Technologies</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li><a href="">Industries</a></li>
+                    <li><a href="">Company</a></li>
+                    <button class="menu-btn">
+                        Contact Us
+                        <img src="images/arrow-up-right.png" alt="">
+                       </button>
                 </ul>
               </nav>
             <div class="hamburger"><img src="images/ham.png" alt=""></div>
             <div class="overlay"></div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+
+ <!-- baner  -->
+
+<section class="baner-section">
+<div class="container">
+        <div class="baner-main">
+    <div class="baner-content">
+        <h1 class="big-heading">Where Ideas Transform into 
+            Extraordinary Apps."</h1>
+        <h5 class="grey-para">We help you tap into the transformative power of technology, to unlock value where you need it the most, and take your business to where it needs to go.</h5>
+    </div>
+    <div class="contact-col">
+        <div class="contact-form">
+            <p class="sec-heading">Let’s connect to help you and your team.</p>
+            <form action="https://formspree.io/f/xrgrdkry" id="contact-form" method="POST">
+                <input type="text" name="Name" id="Name" placeholder="Full Name" required />
+                <div class="con">
+                    <div class="con1 dropdown">    
+                            <button class="btn btn-secondary dropdown-toggle mob" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                +91
+                                <img src="images/flag.jpg" alt="">
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>       
+                    </div>
+                <input type="text" name="Name" id="Name" placeholder="Mobile Number" required />
+                </div>
+                <input type="email" name="Email" id="Email" placeholder="Email Address" required />
+                <textarea rows="4" name="Message" id="Message" placeholder="Message" required></textarea>
+            </form>
+            <button type="submit" class="contact-btn">Send Message</button>
+        </div>
+    </div>
+ </div>
+</section>
 
 
-    <!-- HERO-SEC -->
+<!-- 20+ years -->
 
-    <div class="hero-sec">
-        <div class="subHeading">
-            <p>THEHAM IS <span> WORDPRESS THEME </span></p>
+<section class="years-exp">
+  <div class="container">
+    <h4 class="sec-heading">
+        Over <span>20+ years</span> of experience in developing <br> captivating software.
+    </h4>
+ 
+  <div class="main-exp-div">
+    <div class="exp-div">
+        <img src="images/Black (1).png" alt="">
+        <p class="para-dark">500+</p>
+        <p>Project done</p>
+    </div>
+    <div class="exp-div">
+        <img src="images/Black (2).png" alt="">
+        <p class="para-dark">60+</p>
+        <p>Consultants</p>
+    </div>
+    <div class="exp-div">
+        <img src="images/Black.png" alt="">
+        <p class="para-dark">200+</p>
+        <p>Awards winning</p>
+    </div>
+    <div class="exp-div">
+        <img src="images/Red.png" alt="">
+        <p class="para-dark">500+</p>
+        <p>Satisfied customers </p>
+    </div>
+   </div>
+</div>
+</section>
+
+
+
+
+<!-- What we do exactly ? -->
+
+<section class="What-we-do">
+ <div class="container">
+    <h4 class="sec-heading">
+        What we do exactly ?
+    </h4>
+  <div class="main-What-we-do">
+    <div class="What-we-do">
+        <img src="images/01..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+    <div class="What-we-do">
+        <img src="images/02..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+    <div class="What-we-do">
+        <img src="images/03..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+    <div class="What-we-do">
+        <img src="images/04..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+    <div class="What-we-do">
+        <img src="images/05..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+    <div class="What-we-do">
+        <img src="images/06..png" alt="">
+        <h4 class=".grey-para">Gathering Information</h4>
+        <p class="para">Transforming concepts into captivating mobile experiences with our expert App developments Service</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<!-- Steps -->
+<section class="Steps">
+    <div class="container">
+      <h4 class="sec-heading">
+        Steps of Mobile app development process 
+    </h4>
+    <div class="main-Steps">
+      <div class="Steps-div">
+          <img src="images/Group 144.png" alt="">
+          <img src="images/Line 6.png" alt="">
+        <div class="Steps-div-content">
+            <h4 class=".grey-para">Business <br> Ideation</h4>
+          <p class="para">Steps we take to deliver excellence Steps we take to deliver excellence</p>
+          </div>
+      </div> 
+      <div class="Steps-div">
+          <img src="images/Group 144.png" alt="">
+          <img src="images/Line 6.png" alt="">
+        <div class="Steps-div-content">
+            <h4 class=".grey-para">Business <br>Analysis</h4>
+          <p class="para">Steps we take to deliver excellence Steps we take to deliver excellence</p>
+          </div>
+      </div> 
+      <div class="Steps-div">
+          <img src="images/Group 144.png" alt="">
+          <img src="images/Line 6.png" alt="">
+        <div class="Steps-div-content">
+            <h4 class=".grey-para">Prototyping & <br>
+                UI/UX Design</h4>
+          <p class="para">Steps we take to deliver excellence Steps we take to deliver excellence</p>
+          </div>
+      </div> 
+      <div class="Steps-div">
+          <img src="images/Group 144.png" alt="">
+          <img src="images/Line 6.png" alt="">
+        <div class="Steps-div-content">
+            <h4 class=".grey-para">MVP development <br> & launch</h4>
+          <p class="para">Steps we take to deliver excellence Steps we take to deliver excellence</p>
+          </div>
+      </div> 
+      <div class="Steps-div">
+          <img src="images/Group 144.png" alt="">
+        <div class="Steps-div-content">
+          <h4 class=".grey-para">maintenance & <br> Support</h4>
+          <p class="para">Steps we take to deliver excellence Steps we take to deliver excellence</p>
         </div>
-        <div class="heading">
-            <p>we are creative</p>
-        </div>
-        <div class="hero-text">
-            <p>just buy and enjoy these awesome features</p>
-        </div>
-        <div class="hero-sec-btn">
-            <button class="left-btn">EXPLORE NOW</button>
-            <button class="right-btn">PURCHASE NOW</button>
+      </div> 
+    </div> 
+</div>
+</section>
+
+<!-- future -->
+<section class="future pt">
+    <div class="container">
+        <h3 class="big-heading">
+            Build Your Future
+        </h3>
+        <p class="para">Partner with us for tailored software solutions. Your success is our priority</p>
+        <button class="future-btn">
+            Contact Us
+            <img src="images/arrow-up-right.png" alt="">
+        </button>
+    </div>
+    
+</section>
+
+
+
+<!-- dbnhuh -->
+
+<section class="Industries">
+    <div class="container">
+         <h4 class="sec-heading">
+            Industries we serve 
+        </h4>
+        <div class="Industries-main-div">
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
+            <div class="Industries-div">
+            <img src="images/money 1 (traced).png" class="Industries-img" alt="">
+            <h4 class=".grey-para">Financial <br>
+                Services</h4>
+                <p class="para">In the financial sector, software development is crucial for creating banking applications . .</p>
+                <div class="Industries-bot">
+                    <h6 class="para">Read more </h6>
+                    <img src="images/ph_arrow-left-light.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- SLIDE -->
+</section>
 
-    <section class="slide-sec">
-        <div class="slide-div1">
-            <div class="slide-div-icon">
-                <i class="fa-regular fa-hand-pointer"></i>
-            </div>
-            <div class="slide-div-text">DEFFERENT THEME OPTION</div>
-        </div>
 
-        <div class="slide-div2">
-            <div class="slide-div-icon">
-                <i class="fa-regular fa-gem"></i>
-            </div>
-            <div class="slide-div-text">DEFFERENT THEME OPTION</div>
-        </div>
 
-        <div class="slide-div1">
-            <div class="slide-div-icon">
-                <i class="fa-regular fa-hand-pointer"></i>
-            </div>
-            <div class="slide-div-text">DEFFERENT THEME OPTION</div>
-        </div>
-
-        <div class="slide-div2">
-            <div class="slide-div-icon">
-                <i class="fa-regular fa-gem"></i>
-            </div>
-            <div class="slide-div-text">DEFFERENT THEME OPTION</div>
-        </div>
-    </section>
-
-    <!-- CREATIVITY -->
-
-    <section class="creativity-sec">
-        <p class="creative-head">Creative Amazing Features</p>
-        <div class="container container-tb creative-grid">
-             <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-            <div class="ret-div">
-                <div class="ret-div-content">
-                    <div class="leaf">
-                        <i class="fa-solid fa-leaf"></i>
-                    </div>
-                    <div class="ret-div-content-text">Retina ready</div>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                    tempore natus consequatur maxime sunt repellendus alias, modi, minus
-                    velit iusto consectetur dolorem minima vero culpa at, adipisci
-                    quibusdam nihil praesentium.
-                </p>
-            </div>
-
-
-        </div>
-    </section>
-
-    <!-- ABOUT skillbar -->
-
-    <section class="about-company">
-        <div class="company-right-main container">
-            <div class="company-right">
-                <div class="company-head">
-                    <p>About Our Company</p>
-                </div>
-                <div class="company-links">
-                    <ul>
-                        <li><a href="">OUR HISTORY</a></li>
-                        <li><a href="">OUR BIOGRAPHY</a></li>
-                        <li><a href="">OUR SKILLS</a></li>
-                    </ul>
-                </div>
-
-                <div class="skill-group">
-                    <div class="skill-bar">
-                        <div class="skill-value html">
-                            <p>HTML, CSS and Web Design</p>
-                            90%
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-value js">
-                            <p>Javascript</p>
-                            70%
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-value python">
-                            <p>Python</p>
-                            55%
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-value react">
-                            <p>React</p>
-                            70%
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-value skill-name node">
-                            <p>Node JS</p>
-                            80%
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- work sec  -->
-
-    <section class="work-sec">
-        <div class="work-btn-tab container">
-            <div class="work-head">
-                <p>Our Amazing Work</p>
-            </div>
-            <div class="work-tab-ops">
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
-                            aria-selected="true">
-                            ALL
-                        </button>
-                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
-                            WEB DESIGN
-                        </button>
-                        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                            type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
-                            GRAPHIC DESIGN
-                        </button>
-                        <button class="nav-link" id="nav-contact2-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-contact2" type="button" role="tab" aria-controls="nav-contact2"
-                            aria-selected="false">
-                            Contact
-                        </button>
-                        <button class="nav-link" id="nav-contact3-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-contact3" type="button" role="tab" aria-controls="nav-contact3"
-                            aria-selected="false">
-                            WORDPRESS
-                        </button>
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
-                        tabindex="0">
-                        <div class="work-img-grid container">
-                            <div class="work-img-sec">
-                                <img src="images/1.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/4.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/6.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/7.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/11.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/12.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/1.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/14.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/11.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/17.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/11.webp" alt="" />
-                            </div>
-                            <div class="work-img-sec">
-                                <img src="images/10.webp" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
-                        tabindex="0">
-                        <div class="work-img-grid container">
-                            <div class="work-img-sec">
-                                <img src="images/11.webp" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
-                        tabindex="0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-                        laborum culpa fuga quas sed natus molestias nihil et ducimus optio
-                        maiores repellat at placeat veniam quo quia aliquid est,
-                        temporibus a. Corporis, modi vel? Cumque distinctio eos molestiae
-                        excepturi aperiam. Distinctio doloremque excepturi ad voluptatem
-                        cum accusantium laudantium expedita non.
-                    </div>
-                    <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact2-tab"
-                        tabindex="0">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aspernatur, vitae maiores. Voluptatem atque impedit odit, iure
-                        fugiat asperiores eum quasi?
-                    </div>
-                    <div class="tab-pane fade" id="nav-contact3" role="tabpanel" aria-labelledby="nav-contact3-tab"
-                        tabindex="0">
-                        Kallu Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aspernatur, vitae maiores. Voluptatem atque impedit odit, iure
-                        fugiat asperiores eum quasi?
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="work-simp">
-            <button class="work-simp-btn">EXPLORE NOW</button>
-        </div>
-    </section>
-
-    <!-- service -->
-
-    <section class="service-sec">
-        <div class="container container-tb">
-            <div class="service-tab">
-                <div class="service-head">
-                    <p>About Our Company</p>
-
-                </div>
-                <div class="service-tab-ops">
-                    <nav>
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                            <button class="nav-link active" id="nav-WEB-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-WEB" type="button" role="tab" aria-controls="nav-WEB"
-                                aria-selected="true">
-                                WEB DESIGN
-                            </button>
-                            <button class="nav-link" id="nav-GRAPHIC-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-GRAPHIC" type="button" role="tab" aria-controls="nav-GRAPHIC"
-                                aria-selected="false">
-                                GRAPHIC DESIGN
-                            </button>
-                            <button class="nav-link" id="nav-APP-tab" data-bs-toggle="tab" data-bs-target="#nav-APP"
-                                type="button" role="tab" aria-controls="nav-APP" aria-selected="false">
-                                APP DESIGN
-                            </button>
-                            <button class="nav-link" id="nav-WORDPRESS-tab" data-bs-toggle="tab"
-                                data-bs-target="#nav-WORDPRESS" type="button" role="tab" aria-controls="nav-WORDPRESS"
-                                aria-selected="false">
-                                WORDPRESS
-                            </button>
-                            <button class="nav-link" id="nav-SEO-tab" data-bs-toggle="tab" data-bs-target="#nav-SEO"
-                                type="button" role="tab" aria-controls="nav-SEO" aria-selected="false">
-                                SEO SERVICE
-                            </button>
-                        </div>
-                    </nav>
-                    <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-WEB" role="tabpanel"
-                            aria-labelledby="nav-WEB-tab" tabindex="">
-                            <div class="service-content">
-                                <img src="images/3.webp" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Perferendis, illum? Aperiam, quasi, quo suscipit debitis,
-                                    accusamus at fugit beatae hic dolor molestias sapiente minima.
-                                    Reprehenderit earum neque sunt nesciunt ex sapiente quia nostrum
-                                    natus exercitationem eaque quos assumenda eum ipsum mollitia
-                                    beatae a eius molestias, sit cumque in obcaecati. Sequi temporibus
-                                    neque, labore unde ex cum fuga natus rerum itaque porro incidunt
-                                    vel a deleniti est? Hic maxime, asperiores, eveniet ipsum rerum
-                                    ducimus at perspiciatis ea, quibusdam vero excepturi nobis! earum
-                                    neque sunt nesciunt ex sapiente quia nostrum natus exercitationem
-                                    eaque quos assumenda eum ipsum mollitia beatae a eius molestias,
-                                    sit cumque in obcaecati. Sequi temporibus neque, labore unde ex
-                                    cum fuga natus rerum itaque porro incidunt vel a deleniti est? Hic
-                                    maxime.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-GRAPHIC" role="tabpanel" aria-labelledby="nav-GRAPHIC-tab"
-                            tabindex="0">
-                            <div class="service-content">
-                                <img src="images/3.webp" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Perferendis, illum? Aperiam, quasi, quo suscipit debitis,
-                                    accusamus at fugit beatae hic dolor molestias sapiente minima.
-                                    Reprehenderit earum neque sunt nesciunt ex sapiente quia nostrum
-                                    natus exercitationem eaque quos assumenda eum ipsum mollitia
-                                    beatae a eius molestias, sit cumque in obcaecati. Sequi temporibus
-                                    neque, labore unde ex cum fuga natus rerum itaque porro incidunt
-                                    vel a deleniti est? Hic maxime, asperiores, eveniet ipsum rerum
-                                    ducimus at perspiciatis ea, quibusdam vero excepturi nobis! earum
-                                    neque sunt nesciunt ex sapiente quia nostrum natus exercitationem
-                                    eaque quos assumenda eum ipsum mollitia beatae a eius molestias,
-                                    sit cumque in obcaecati. Sequi temporibus neque, labore unde ex
-                                    cum fuga natus rerum itaque porro incidunt vel a deleniti est? Hic
-                                    maxime.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-APP" role="tabpanel" aria-labelledby="nav-APP-tab"
-                            tabindex="0">
-                            <div class="service-content">
-                                <img src="images/3.webp" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Perferendis, illum? Aperiam, quasi, quo suscipit debitis,
-                                    accusamus at fugit beatae hic dolor molestias sapiente minima.
-                                    Reprehenderit earum neque sunt nesciunt ex sapiente quia nostrum
-                                    natus exercitationem eaque quos assumenda eum ipsum mollitia
-                                    beatae a eius molestias, sit cumque in obcaecati. Sequi temporibus
-                                    neque, labore unde ex cum fuga natus rerum itaque porro incidunt
-                                    vel a deleniti est? Hic maxime, asperiores, eveniet ipsum rerum
-                                    ducimus at perspiciatis ea, quibusdam vero excepturi nobis! earum
-                                    neque sunt nesciunt ex sapiente quia nostrum natus exercitationem
-                                    eaque quos assumenda eum ipsum mollitia beatae a eius molestias,
-                                    sit cumque in obcaecati. Sequi temporibus neque, labore unde ex
-                                    cum fuga natus rerum itaque porro incidunt vel a deleniti est? Hic
-                                    maxime.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-WORDPRESS" role="tabpanel"
-                            aria-labelledby="nav-WORDPRESS-tab" tabindex="0">
-                            <div class="service-content">
-                                <img src="images/3.webp" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Perferendis, illum? Aperiam, quasi, quo suscipit debitis,
-                                    accusamus at fugit beatae hic dolor molestias sapiente minima.
-                                    Reprehenderit earum neque sunt nesciunt ex sapiente quia nostrum
-                                    natus exercitationem eaque quos assumenda eum ipsum mollitia
-                                    beatae a eius molestias, sit cumque in obcaecati. Sequi temporibus
-                                    neque, labore unde ex cum fuga natus rerum itaque porro incidunt
-                                    vel a deleniti est? Hic maxime, asperiores, eveniet ipsum rerum
-                                    ducimus at perspiciatis ea, quibusdam vero excepturi nobis! earum
-                                    neque sunt nesciunt ex sapiente quia nostrum natus exercitationem
-                                    eaque quos assumenda eum ipsum mollitia beatae a eius molestias,
-                                    sit cumque in obcaecati. Sequi temporibus neque, labore unde ex
-                                    cum fuga natus rerum itaque porro incidunt vel a deleniti est? Hic
-                                    maxime.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="nav-SEO" role="tabpanel" aria-labelledby="nav-SEO-tab"
-                            tabindex="0">
-                            <div class="service-content">
-                                <img src="images/3.webp" alt="" />
-                                <p>
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                    Perferendis, illum? Aperiam, quasi, quo suscipit debitis,
-                                    accusamus at fugit beatae hic dolor molestias sapiente minima.
-                                    Reprehenderit earum neque sunt nesciunt ex sapiente quia nostrum
-                                    natus exercitationem eaque quos assumenda eum ipsum mollitia
-                                    beatae a eius molestias, sit cumque in obcaecati. Sequi temporibus
-                                    neque, labore unde ex cum fuga natus rerum itaque porro incidunt
-                                    vel a deleniti est? Hic maxime, asperiores, eveniet ipsum rerum
-                                    ducimus at perspiciatis ea, quibusdam vero excepturi nobis! earum
-                                    neque sunt nesciunt ex sapiente quia nostrum natus exercitationem
-                                    eaque quos assumenda eum ipsum mollitia beatae a eius molestias,
-                                    sit cumque in obcaecati. Sequi temporibus neque, labore unde ex
-                                    cum fuga natus rerum itaque porro incidunt vel a deleniti est? Hic
-                                    maxime.
-                                </p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-               
-            </div>
-        </div>
-    </section>
-
-    <!-- ready  -->
-
-    <section class="ready-sec container-tb">
-        <p class="ready-head">EVERYTHING IS READY.JUST BUY AND ENJOY NOW</p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-            cupiditate dolorum ullam est aliquid nostrum ducimus aspernatur, amet
-            ipsam assumenda!
-        </p>
-        <button class="ready-btn">PURCHASE NOW</button>
-    </section>
-
-    <!-- Breaking  -->
-
-    <section class="breaking-sec">
-        <div class="break-head">
-            <p>BREAKING NEWS</p>
-        </div>
-        <div class="break-main  container">
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-            <div class="break-div">
-                <div class="break-div-img">
-                    <img src="images/1.webp" alt="" />
-                </div>
-                <p class="break-div-head">Amazing Image Post</p>
-                <div class="break-text">
-                    <p class="break-left-text">By admin</p>
-                    <p>|</p>
-                    <p class="break-rightt-text">2 Comment</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- slide2  -->
-
-    <section class="slidem-sec container-pt">
-        <div class="slide2-main">
-            <div class="slide2-icon-br">
-                <div class="slide2-icon">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-            </div>
-            <div class="slide2-text">
-                <p class="slide2-dark">5604</p>
-                <p class="slide2-light">WORK</p>
-            </div>
-        </div>
-        <div class="slide3-main">
-            <div class="slide3-icon-br">
-                <div class="slide3-icon">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-            </div>
-            <div class="slide3-text">
-                <p class="slide3-dark">5604</p>
-                <p class="slide3-light">WORK</p>
-            </div>
-        </div>
-        <div class="slide2-main">
-            <div class="slide2-icon-br">
-                <div class="slide2-icon">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-            </div>
-            <div class="slide2-text">
-                <p class="slide2-dark">5604</p>
-                <p class="slide2-light">WORK</p>
-            </div>
-        </div>
-        <div class="slide3-main">
-            <div class="slide3-icon-br">
-                <div class="slide3-icon">
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
-            </div>
-            <div class="slide3-text">
-                <p class="slide3-dark">5604</p>
-                <p class="slide3-light">WORK</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- price -->
-
-    <section class="price-sec">
-        <div class="price-head">
-            <p>OUR PRICING TABLE</p>
-        </div>
-        <div class="container container-tb table-flex">
-            <div class="main-table">
-                <div class="personal">PERSONAL</div>
-                <div class="dollor">$90/<span>month</span></div>
-                <div class="price-list">
-                    <ul>
-                        <li>1 Hosting</li>
-                        <li>2 Datapacks</li>
-                        <li>5 Packages</li>
-                        <li>3 WEbcloud</li>
-                        <li>8 Internet</li>
-                        <li>30 Roaming Pack</li>
-                    </ul>
-                </div>
-                <div class="price-buy">
-                    <button>BUY NOW</button>
-                </div>
-            </div>
-            <div class="main-table">
-                <div class="personal">PROFESSIONAL</div>
-                <div class="dollor">$10.8/<span>month</span></div>
-                <div class="price-list">
-                    <ul>
-                        <li>1 Hosting</li>
-                        <li>2 Datapacks</li>
-                        <li>5 Packages</li>
-                        <li>3 WEbcloud</li>
-                        <li>8 Internet</li>
-                        <li>30 Roaming Pack</li>
-                    </ul>
-                </div>
-                <div class="price-buy">
-                    <button>BUY NOW</button>
-                </div>
-            </div>
-            <div class="main-table">
-                <div class="personal">DIAMOND</div>
-                <div class="dollor">$210/<span>month</span></div>
-                <div class="price-list">
-                    <ul>
-                        <li>1 Hosting</li>
-                        <li>2 Datapacks</li>
-                        <li>5 Packages</li>
-                        <li>3 WEbcloud</li>
-                        <li>8 Internet</li>
-                        <li>30 Roaming Pack</li>
-                    </ul>
-                </div>
-                <div class="price-buy">
-                    <button>BUY NOW</button>
-                </div>
-            </div>
-            <div class="main-table">
-                <div class="personal">BUSINESS</div>
-                <div class="dollor">$190/<span>month</span></div>
-                <div class="price-list">
-                    <ul>
-                        <li>1 Hosting</li>
-                        <li>2 Datapacks</li>
-                        <li>5 Packages</li>
-                        <li>3 WEbcloud</li>
-                        <li>8 Internet</li>
-                        <li>30 Roaming Pack</li>
-                    </ul>
-                </div>
-                <div class="price-buy">
-                    <button>BUY NOW</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- people -->
-
-    <section class="people-say">
-        <div class="container people-pb">
-            <div class="people-main">
-                <div class="people-head">
-                    <p>What People Say About theHAM</p>
-                </div>
-                <div class="people-semi">“</div>
-                <div class="people-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
-                    vero delectus? Tempore consectetur, sit doloribus, laborum facere
-                    eaque nam maxime omnis laboriosam vero modi temporibus commodi.
-                    Doloremque beatae voluptate atque.
-                </div>
-                <div class="people-name slider-for">Sandeep Singh</div>
-                <div class="people-name-info">UX Designer</div>
-
-
-                <div class="slider-for">
-                    <div class="slider-for-image"><img src="images/1.webp" alt=""></div>
-                    <div class="slider-for-image"><img src="images/6.webp" alt=""></div>
-                    <div class="slider-for-image"><img src="images/16.webp" alt=""></div>
-                    <div class="slider-for-image"><img src="images/11.webp" alt=""></div>
-                    <div class="slider-for-image"><img src="images/17.webp" alt=""></div>
-                    <div class="slider-for-image"><img src="images/13.webp" alt=""></div>
-                </div>
-                <div class=" slider-nav">
-                    <div><img src="images/1.webp" alt=""></div>
-                    <div><img src="images/6.webp" alt=""></div>
-                    <div><img src="images/16.webp" alt=""></div>
-                    <div><img src="images/11.webp" alt=""></div>
-                    <div><img src="images/17.webp" alt=""></div>
-                    <div><img src="images/13.webp" alt=""></div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- our team  -->
-
-    <section class="our-team">
-        <class="container">
-            <div class="team-head">
-                <p>Meet Our Team</p>
-            </div>
-            <div class="container-tb main-card">
-                <div class="card">
-                    <img src="images/man.jpg" class="card-img-top" alt="..." />
-                    <div class="card-content">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandeep Singh</h5>
-                            <p class="card-text">UX Designer</p>
-                        </div>
-                        <div class="team-icon">
-                            <ul>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/man.jpg" class="card-img-top" alt="..." />
-                    <div class="card-content">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandeep Singh</h5>
-                            <p class="card-text">UX Designer</p>
-                        </div>
-                        <div class="team-icon">
-                            <ul>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/man.jpg" class="card-img-top" alt="..." />
-                    <div class="card-content">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandeep Singh</h5>
-                            <p class="card-text">UX Designer</p>
-                        </div>
-                        <div class="team-icon">
-                            <ul>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/man.jpg" class="card-img-top" alt="..." />
-                    <div class="card-content">
-                        <div class="card-body">
-                            <h5 class="card-title">Sandeep Singh</h5>
-                            <p class="card-text">UX Designer</p>
-                        </div>
-                        <div class="team-icon">
-                            <ul>
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-            </div>
-
-    </section>
-
-    <!-- tablet -->
-
-    <section class="tablet-sec">
-        <div class="container-fluid">
-            <div class="tablet-head">
-                <p class="tablet-heading">THEHAM IS NOT ONLY WORDPRESS THEME</p>
-                <p class="tablet-subheading">ITS ALSO CLEAN AND CREATIVE DESIGN</p>
-            </div>
-            <div class="tablet-main-div">
-                <div class="tablet-main">
-                    <div class="tab-left">
-                        <img src="images/laptop.png" alt="">
-                    </div>
-                    <div class="tab-right">
-                        <div class="tablet-rti">
-                            <div class="tablet-icon"><i class="fa-solid fa-check"></i></div>
-                            <div class="tablet-text">Clean Layout Design</div>
-                        </div>
-                        <div class="tablet-rti">
-                            <div class="tablet-icon"><i class="fa-solid fa-check"></i></div>
-                            <div class="tablet-text">Clean Layout Design</div>
-                        </div>
-                        <div class="tablet-rti">
-                            <div class="tablet-icon"><i class="fa-solid fa-check"></i></div>
-                            <div class="tablet-text">Clean Layout Design</div>
-                        </div>
-                        <div class="tablet-rti">
-                            <div class="tablet-icon"><i class="fa-solid fa-check"></i></div>
-                            <div class="tablet-text">Clean Layout Design</div>
-                        </div>
-                        <div class="tablet-rti">
-                            <div class="tablet-icon"><i class="fa-solid fa-check"></i></div>
-                            <div class="tablet-text">Clean Layout Design</div>
-                        </div>
-
-                        <div class="tablet-btn">
-                            <button>PURCHASE NOW</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- form-section  -->
-
-    <section class="touch container-tb">
-        <div class="map">
-            <div class="map-frame">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.19355916136!2d72.83144917596712!3d19.186746448485014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6f6a07a142f%3A0x838ea00904a1510d!2sWDIPL%20-%20Mobile%20App%20Development%20Company!5e0!3m2!1sen!2sin!4v1707996210357!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-        <div class="contact-col">
-            <div class="contact-head">
-                <p>Keep In Touch</p>
-            </div>
-            <div class="contact-form">
-                <form action="https://formspree.io/f/xrgrdkry" id="contact-form" method="POST">
-                    <input type="text" name="Name" id="Name" placeholder="Enter your Name" required />
-                    <input type="email" name="Email" id="Email" placeholder="Enter your Email" required />
-                    <textarea rows="8" name="Message" id="Message" placeholder="Message" required></textarea>
-                </form>
-                <button type="submit" class="contact-btn">Send Message</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer-section -->
-
-    <section class="footer">
-        <div class="footer-main">
-            <div class="the-ham">
-                <div class="ham-head">the<span>HAM</span></div>
-                <div class="ham-text">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. In aliquam
-                    quo ex dolorem doloremque necessitatibus possimus, eum alias a
-                    quasi!
-                </div>
-                <div class="ham-add">
-                    <p class="add-1">
-                        <span class="ham-add-head">Office :</span>
-                        <br>795 folsom ave suite 600
-                        <br>san francisco CA 94107
-                    </p>
-                    <p class="add-2">
-                        <span class="ham-add-head">Phone:</span> (91) 1234567890
-                        <br>
-                        <span class="ham-add-head">Fax:</span> (91) 1234567890
-                        <br>
-                        <span class="ham-add-head">Email:</span> xyz@mail.com
-                    </p>
-                </div>
-            </div>
-
-            <div class="recent-post">
-                <div class="recent-head">Recent Post</div>
-                <div class="recent-post-content">
-                    <div class="recent-sm-img">
-                        <img src="images/1.webp" alt="" />
-                    </div>
-                    <div class="recent-post-right">
-                        <div class="recent-post-right-head">A STANDARD IMAGE POST</div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p class="ham-bottom-text">10 March 2024</p>
-                    </div>
-                </div>
-
-                <div class="recent-post-content">
-                    <div class="recent-sm-img">
-                        <img src="images/1.webp" alt="" />
-                    </div>
-                    <div class="recent-post-right">
-                        <div class="recent-post-right-head">A STANDARD IMAGE POST</div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p class="ham-bottom-text">10 March 2024</p>
-                    </div>
-                </div>
-
-                <div class="recent-post-content-last">
-                    <div class="recent-sm-img">
-                        <img src="images/1.webp" alt="" />
-                    </div>
-                    <div class="recent-post-right">
-                        <div class="recent-post-right-head">A STANDARD IMAGE POST</div>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p class="ham-bottom-text">10 March 2024</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tags">
-                <div class="tags-head">Tags</div>
-
-                <div class="tags-box">
-                    <div class="tags-dec">
-                        <a class=" tags-link-active" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-
-
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                        <a class=" tags-link-usuall" href="">audio</a>
-                    </div>
-                </div>
-                <div class="tags-title-bottom">newsletter</div>
-                <p class="tags-bottom-item">subscribe to Our Newsletter to get important News Amazing Offers.</p>
-                <form class="tags-form">
-                    <input type="text" placeholder="Enter email" class="tags-input">
-                    <button type="submit" class="tags-btn-go">GO</button>
-                </form>
-            </div>
-
-
-            <div class="flicke-feed">
-                <div class="flicke-head">Flicke Feed</div>
-                <div class="flicke-div">
-                    <a href="">
-                        <img src="images/1.webp" alt="">
-                    </a>
-                    <a href="">
-                        <img src="images/1.webp" alt="">
-                    </a>
-                    <a href="">
-                        <img src="images/1.webp" alt="">
-                    </a>
-                    <a href="">
-                        <img src="images/1.webp" alt="">
-                    </a>
-                    <a href="">
-                        <img src="images/1.webp" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-
-
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-        });
-    </script>
-    <script>
-        $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: false,
-            centerMode: true,
-            prevArrow: '<img class="slickPrevBtn" src="images/arrow-left.png" alt="">',
-            nextArrow: '<img class="slickNextBtn" src="images/arrow-right.png" alt="">',
-            focusOnSelect: true
-        });
-    </script>
-
-<script>
-    let cross_btn = document.querySelector('.cross-btn');
-    let nav = document.querySelector('.navs');
-    let ham = document.querySelector('.hamburger');
-    let overlay = document.querySelector('.overlay');
-    let navLinks = document.querySelector('.navLinks');
-
-    let openSide = function () {
-        nav.style.left = '0';
-        overlay.style.left = '0';
-        
-    }
-    let closeSide = function () {
-        nav.style.left = '-100%';
-        overlay.style.left = '-100%';
-    }
-
-    ham.addEventListener('click', function () {
-        openSide();
-    })
-    cross_btn.addEventListener('click', function () {
-        closeSide();
-    })
-    overlay.addEventListener('click', function () {
-        closeSide();
-    })
-    navLinks.addEventListener('click', function () {
-       navLinks();
-    })
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
 </script>
-
-
-
-
-
-
-
-
-
-
-<!-- <script>
-    function toggleSearchBar() {
-    var searchBar = document.getElementById("search-bar");
-    searchBar.style.display = (searchBar.style.display === "block") ? "none" : "block";
-  }
-</script> -->
 </body>
-
 </html>

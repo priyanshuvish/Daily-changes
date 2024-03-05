@@ -302,8 +302,11 @@ button.contact-btn {
 /* future */
 
 .future {
-  background-color: var(--black);
-  color: var(--white);
+    background-color: var(--black);
+    background-image: url(images/Group\ 105265.png);
+    color: var(--white);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 .future .future-btn {
   padding: 15px 144px;
@@ -340,8 +343,282 @@ button.contact-btn {
 .Industries-div .Industries-bot h6 {
   margin: 0;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16;
 }
+
+/* Why  */
+.Why {
+  background-image: url(images/Rectangle\ 137.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+.Why-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Why-main .Why-content .big-heading {
+  font-size: 45px;
+  font-weight: 500;
+}
+.Why-main .Why-content .big-heading span {
+  color: var(--pink);
+ 
+}
+.Why-main .Why-content img{
+  margin: 20px 0 ;
+ 
+}
+.Why-main .Why-content .para {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.Why .Why-btn {
+  padding: 15px 30px;
+  color: var(--white);
+  background-color: var(--pink);
+  border: none;
+  display: flex;
+  gap: 10px;
+  width: 200px;
+}
+
+/* Our clients said */
+
+.main-slider{
+  box-shadow:rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 80px 80px;
+  position: relative;
+  text-align: center;
+}
+
+.main-slider .slider-img {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main-slider .slider-img img{
+  width: 100%;
+  border-radius: 50%;
+  filter: drop-shadow(0.35px 0.35px 0.4px rgba(0, 0, 0, 0.5));
+}
+.main-slider .quotel {
+  position: absolute;
+  top: -50px;
+  left: 40px;
+}
+.main-slider .quoter {
+  position: absolute;
+  bottom: -50px;
+  right: 40px;
+}
+.main-slider .para{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.main-slider .paraa{
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-slider .para{
+ margin-top: 80px;
+}
+.main-slider .home-img {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.slickPrevBtn.slick-arrow {
+  position: absolute;
+  top: 50%;
+  left: 54px;
+  transform: translateX(-50%);
+}
+img.slickNextBtn.slick-arrow {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateX(-50%);
+}
+
+/* Our work */
+
+.Our-work-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.46)), url(images/image\ 19.png);
+  background-repeat: no-repeat;
+  /* display: flex;
+  grid-template-columns: repeat(2,1fr); */
+  color: white;
+  margin: 40px 0;
+}
+.Our-work-img {
+  display: flex;
+}
+.Our-work-main .Our-work-content .Our-work-content-rating {
+  display: flex;
+  align-items: center;
+  gap: 165px;
+  margin-top: 40px;
+}
+.Our-work-main .Our-work-content .Our-work-content-rating .sec-heading {
+  padding: 0;
+}
+.Our-work-main .Our-work-content .Our-work-content-rating .para {
+font-size: 20px;
+font-weight: 400;
+}
+
+.Our-work-main .Our-work-content h2{
+  font-weight: 700;
+  margin-top: 20px;
+  letter-spacing: 1.8px;
+}
+.Our-work-main .Our-work-content .para{
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--white-other);
+}
+.Our-work-main .Our-work-content .Our-work-content-btn {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3,1fr);
+  margin-right: 60px;
+}
+.Our-work-main .Our-work-content .Our-work-content-btn button {
+  padding: 6px 0px;
+  border: none;
+  background-color: var(--other-gray);
+  border-radius: 4px;
+  color: var(--white);
+}
+/* .Our-work-main .Our-work-content .Our-work-content-btn .last-btn{
+  margin-top: 10px;
+} */
+
+ #single {
+  position: absolute;
+  top: 50%;
+  right: -75px;
+  transform: translate(-50%,-50%);
+}
+
+
+/* bespoke  */
+
+.bespoke-main{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.bespoke-main .bespoke-left .sec-heading{
+text-align: left;
+padding: 0;
+}
+.bespoke-main .bespoke-left .sec-heading span{
+  color: var(--pink);
+}
+.bespoke-main .bespoke-left .bespoke-left-content span {
+  color: var(--pink);
+  font-size: 26px;
+  margin-right: 10px;
+}
+.bespoke-main .bespoke-left .bespoke-left-add {
+ background-color: rgba(250, 250, 250, 1);
+ border-radius: 4px;
+ width: 400px;
+ padding: 20px;
+  }
+.bespoke-main .bespoke-left .bespoke-left-add .para {
+  font-weight: 600;
+  }
+.bespoke-main .bespoke-left .bespoke-left-add .npara {
+  color: var(--gray);
+  }
+.bespoke-main .bespoke-left .bespoke-left-add .bespoke-left-add-first,
+.bespoke-main .bespoke-left .bespoke-left-add .bespoke-left-add-second {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  }
+.bespoke-main .bespoke-left .bespoke-left-add .bespoke-left-add-first p,
+.bespoke-main .bespoke-left .bespoke-left-add .bespoke-left-add-second p{
+  margin: 0;
+  font-weight: 400;
+  }
+
+  .bespoke-right{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+    border-radius: 6px;
+  }
+
+
+  .bespoke-right-form-1,
+  .bespoke-right-form-2,
+  .bespoke-right-form-3,
+  .bespoke-right-form-4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.bespoke-right-form-1 input,
+.bespoke-right-form-2 input,
+.bespoke-right-form-3 input,
+.bespoke-right-form-4 input,
+.bespoke-right-form form textarea {
+  width: 250px;
+  padding: 4px;
+  outline: none;
+  border: 1px solid #6c757d;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.bespoke-right-form form textarea {
+  width: 575px;
+}
+
+.bespoke-right-form form textarea {
+  resize: none;
+}
+.bespoke-right-form .bespoke-btn {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 10px 0 30px;
+}
+.bespoke-right-form .bespoke-btn button {
+  width: 316px;
+  padding: 10px 15px;
+  background-color: var(--pink);
+  color: white;
+  border: none;
+}
+
+.bespoke-right-form .con1 .mob {
+  background-color: transparent;
+  color: var(--white-mix);
+  width: 250px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
 
 @media (max-width: 768px) {
   .overlay {
